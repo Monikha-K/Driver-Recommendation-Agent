@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:8000",
+    baseURL: "https://driver-recommendation-agent.onrender.com",
 });
 
 export const assignDriver = (payload) => api.post("/assign-driver", payload);
