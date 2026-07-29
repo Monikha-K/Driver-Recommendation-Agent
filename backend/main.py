@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://localhost:5174",   # Add this because Vite is running on 5174
+        "https://driver-recommendation-agent-1.onrender.com/",   # Add this because Vite is running on 5174
     ],
     allow_credentials=True,
     allow_methods=["*"],
